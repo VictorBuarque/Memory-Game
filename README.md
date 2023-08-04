@@ -1,4 +1,4 @@
-# Demon Slayer - Memory-Game
+# Demon Slayer - Memory Game
 This is a thematic memory game of Kimetsu no Yaiba / Demon Slayer.
 
 # Game Description
