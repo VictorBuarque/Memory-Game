@@ -10,12 +10,12 @@ CSS
 JavaScript
 
 # How to Play
-1 - Clone or download from this repository.
-2 - Open the index.html file in your browser.
-3 -Enter your player name and click "Start Game".
-4 - Click on a letter to reveal it.
-5 - Click on another card to try to find the pair.
-6 - Keep turning cards until you find all the pairs and win the game.
+1 - Clone or download from this repository.<br>
+2 - Open the index.html file in your browser.<br>
+3 -Enter your player name and click "Start Game".<br>
+4 - Click on a letter to reveal it.<br>
+5 - Click on another card to try to find the pair.<br>
+6 - Keep turning cards until you find all the pairs and win the game.<br>
 
 # Additional Resources
 * The game contains a timer to measure the total playing time.
