@@ -45,3 +45,28 @@
     color: #eee;
     cursor: auto;
 }
+
+/* Media queries para diferentes tamanhos de tela */
+
+/* Tela com largura mínima de 320px */
+@media screen and (min-width: 320px) {
+    .login-form {
+        padding: 0 20px;
+    }
+}
+
+/* Tela com largura mínima de 768px */
+@media screen and (min-width: 768px) {
+    .login-form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+/* Tela com largura mínima de 1440px */
+@media screen and (min-width: 1440px) {
+    .login-form {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

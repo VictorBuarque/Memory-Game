@@ -2,27 +2,38 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #9f0f1de1;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
     padding: 20px 20px 50px;
+    /* background-image: url('../img/244371.png'); */
+    background-color:  #9f0f1de1;
+    background-size: cover;
+    color: #ff051ec8;
+    font-size: 1.15rem;
+    font-style: oblique;
 }
-.header{
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    max-width: 100vh;
+    background-color: #9f0f1de1;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 0 30px;
+    color: #fff;
+    
 }
-
 .grid{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
-    max-width: 800px;
+    max-width: 100vh;
+    min-height: 100vh;
     gap: .5rem;
     margin: 1rem auto;
-    background-color: #000;
-    
 }
 .card{
     aspect-ratio: 3/4;
@@ -62,4 +73,38 @@ h1{
 .disabled-card{
     filter: saturate(2);
     opacity: 0.5;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Media queries  */
+@media screen and (min-width:320px){
+    .grid{
+        grid-template-columns: repeat(2,1fr) ;
+
+    }
+}
+@media screen and (min-width:768px){
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+    
+}@media screen and (min-width:1440px){
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
