@@ -5,9 +5,9 @@ This is a thematic memory game of Kimetsu no Yaiba / Demon Slayer.
 The Memory Game is a classic matching game in which you must find pairs of equal cards. Each card has a hidden image and the goal is to find all the pairs in the shortest number of attempts and time possible.
 
 # Technologies Used
-HTML
-CSS
-JavaScript
+* HTML<br>
+* CSS<br>
+* JavaScript
 
 # How to Play
 1 - Clone or download from this repository.<br>
