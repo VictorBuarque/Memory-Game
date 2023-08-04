@@ -12,7 +12,7 @@ JavaScript
 # How to Play
 1 - Clone or download from this repository.<br>
 2 - Open the index.html file in your browser.<br>
-3 -Enter your player name and click "Start Game".<br>
+3 - Enter your player name and click "Start Game".<br>
 4 - Click on a letter to reveal it.<br>
 5 - Click on another card to try to find the pair.<br>
 6 - Keep turning cards until you find all the pairs and win the game.<br>
